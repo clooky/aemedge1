@@ -7,6 +7,5 @@ export default function decorate(block) {
     [...row.children].forEach((col) => {
     });
   });
-  block.textContent = 'hjhkjhjhjkhjk';
   block.append(div);
 }
