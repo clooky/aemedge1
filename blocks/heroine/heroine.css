@@ -33,3 +33,14 @@
     padding: 40px 32px;
   }
 }
+
+
+@media (width < 900px) {
+  .heroine h1 {
+    font-size:2rem;
+  }
+  
+  .heroine.block > div {
+    width: 100%;
+  }
+}
