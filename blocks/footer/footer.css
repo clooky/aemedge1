@@ -18,3 +18,23 @@ footer .footer p {
     padding: 40px 32px 24px;
   }
 }
+
+
+
+footer {
+  font-size: 1rem;
+line-height: 1.25;
+}
+footer .columns.mod img {
+width: 200px;
+}
+
+footer ul {
+margin: 0;
+padding: 0;
+list-style: none;
+column-gap: 30px
+}
+footer li {
+margin-bottom:20px;
+}
