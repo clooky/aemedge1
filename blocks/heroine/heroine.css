@@ -1,22 +1,20 @@
-.hero-container .hero-wrapper {
-  max-width: unset;
-  padding: 0;
+.heroine.block {
+  background-color: #512b45;
+  color:#fff;
+  margin-bottom: 50px;
+  padding:50px;
 }
 
-.hero {
-  position: relative;
-  padding: 40px 24px;
-  min-height: 300px;
+.heroine h1 {
+  font-size:3rem;
 }
 
-.hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
+.heroine.block > div {
+  width: 66.6666666667%;
 }
 
-.hero picture {
+
+.heroine picture {
   position: absolute;
   z-index: -1;
   inset: 0;
@@ -24,14 +22,14 @@
   box-sizing: border-box;
 }
 
-.hero img {
+.heroine img {
   object-fit: cover;
   width: 100%;
   height: 100%;
 }
 
 @media (width >= 900px) {
-  .hero {
+  .heroine {
     padding: 40px 32px;
   }
 }
