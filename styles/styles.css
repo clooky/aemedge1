@@ -20,8 +20,8 @@
   --link-hover-color: #1d3ecf;
 
   /* fonts */
-  --body-font-family: Helvetica, Arial, sans-serif;
-  --heading-font-family: Helvetica, Arial, sans-serif;
+  --body-font-family: helvetica, arial, sans-serif;
+  --heading-font-family: helvetica, arial, sans-serif;
 
   /* body sizes */
   --body-font-size-m: 22px;
@@ -42,15 +42,15 @@
 
 /* fallback fonts */
 @font-face {
-  font-family: Helvetica;
+  font-family: helvetica;
   size-adjust: 88.82%;
-  src: local('Arial');
+  src: local('arial');
 }
 
 @font-face {
-  font-family: Helvetica;
+  font-family: helvetica;
   size-adjust: 99.529%;
-  src: local('Arial');
+  src: local('arial');
 }
 
 @media (width >= 900px) {
