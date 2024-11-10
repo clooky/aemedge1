@@ -10,9 +10,9 @@
 }
 
 .hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 600px;
+  margin-left: initial;
+  margin-right: initial;
   color: var(--background-color);
 }
 
