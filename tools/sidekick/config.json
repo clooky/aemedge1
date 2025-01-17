@@ -16,7 +16,7 @@
             "title": "Adobe Express",
             "environments": [ "edit"],
             "url": "https://new.express.adobe.com/",
-            "isPalette": true,
+            "isPalette": false,
             "includePaths": [ "**.docx**"],
             "passConfig": true,
             "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:400px; height: calc(100vh - 60px)"
