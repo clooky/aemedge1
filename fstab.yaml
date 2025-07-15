@@ -1,1 +1,2 @@
-/products/:productId: https://github.com/clooky/aemedge1/main/products/:productId.json
+mountpoints:
+  /products/:productId: https://github.com/clooky/aemedge1/main/products/:productId.json
