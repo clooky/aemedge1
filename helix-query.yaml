@@ -1,4 +1,0 @@
-mountpoints:
-  - path: /products/:productId
-    content: /products/:productId.json
-    template: /templates/product-page.html
