@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Product Page</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+</head>
+<body>
+  <div id="product-container">
+    <h1 id="title"></h1>
+    <img id="image" src="" alt="" />
+    <p id="description"></p>
+    <strong id="price"></strong>
+  </div>
+
+  <script type="module">
+    import { getData } from '/scripts/data-loader.js';
+
+    (async () => {
+      const productId = window.location.pathname.split('/').pop();
+      try {
+        const data = await getData(`/products/${productId}.json`);
+        document.getElementById('title').textContent = data.title;
+        document.getElementById('image').src = data.image;
+        document.getElementById('image').alt = data.title;
+        document.getElementById('description').textContent = data.description;
+        document.getElementById('price').textContent = data.price;
+      } catch (err) {
+        document.getElementById('product-container').innerHTML =
+          `<p>Product not available.</p>`;
+        console.error(err);
+      }
+    })();
+  </script>
+</body>
+</html>
