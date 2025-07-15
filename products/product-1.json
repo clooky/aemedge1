@@ -1,1 +1,7 @@
-
+{
+  "id":"product-1",
+  "title":"Super chair",
+  "price":"£199",
+  "description":"a comfortable chair with back support and arms",
+  "image":"https://www.ikea.com/gb/en/images/products/ekenaeset-armchair-kilanda-light-beige__1109687_pe870153_s5.jpg"
+}
