@@ -1,4 +1,4 @@
 mountpoints:
-  /product:
-    - path: /products/:id.json
-  /content: https://drive.google.com/drive/folders/1qimSKhXtonL8TCBTIeZFPqqWpx62UWXm
+  /: https://drive.google.com/drive/folders/1qimSKhXtonL8TCBTIeZFPqqWpx62UWXm
+folders:
+  /products: /products
