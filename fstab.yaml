@@ -2,5 +2,4 @@ mountpoints:
   /: https://drive.google.com/drive/folders/1qimSKhXtonL8TCBTIeZFPqqWpx62UWXm
   /products: https://github.com/clooky/aemedge1/tree/main/products
 folders:
-  /product: /products
-
+  /products: /products
