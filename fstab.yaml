@@ -1,5 +1,5 @@
 mountpoints:
-  /products: https://github.com/clooky/aemedge1/tree/main/products
-  /templates: https://github.com/clooky/aemedge1/tree/main/templates
-  /scripts: https://github.com/clooky/aemedge1/tree/main/scripts
+  /products: https://github.com/clooky/aemedge1/main/products
+  /templates: https://github.com/clooky/aemedge1/main/templates
+  /scripts: https://github.com/clooky/aemedge1/main/scripts
   /: https://drive.google.com/drive/folders/1qimSKhXtonL8TCBTIeZFPqqWpx62UWXm
