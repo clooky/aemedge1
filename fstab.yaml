@@ -1,3 +1,4 @@
 mountpoints:
   /: https://drive.google.com/drive/folders/1qimSKhXtonL8TCBTIeZFPqqWpx62UWXm
-  /products/:productId /products/:productId.json
+folders:
+  /products/:productId: /products/:productId.json
